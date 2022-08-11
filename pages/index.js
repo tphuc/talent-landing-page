@@ -137,7 +137,7 @@ export default function Home() {
           </Center>
           <div style={{ flexGrow: 1, flexShrink: 1, flexBasis: "auto" }}></div>
           <div>
-            <Button>Login</Button>
+            <Button onClick={() => router.push('https://talent-dasboard.vercel.app/login')}>Login</Button>
             <Dialog>
               <DialogTrigger asChild>
                 <Button variant={'primary'}>Sign up</Button>
@@ -158,7 +158,7 @@ export default function Home() {
                     <Button variant='primary' onClick={() => router.push({
                       pathname:"/signup",
                       query: {
-                        ac:"register_freelancer"
+                        type:"freelancer"
                       }
                     })}>Register this plan</Button>
                   </Box>
@@ -176,7 +176,7 @@ export default function Home() {
                     <Button onClick={() => router.push({
                       pathname:"/signup",
                       query: {
-                        ac:"register_hr_internal_team"
+                        type:"hr_internal_team"
                       }
                     })} variant='primary'>Register this plan</Button>
                   </Box>
@@ -195,7 +195,7 @@ export default function Home() {
                     onClick={() => router.push({
                       pathname:"/signup",
                       query: {
-                        ac:"register_headhunting_agency"
+                        type:"headhunting_agency"
                       }
                     })}
                     variant='primary'>Register this plan</Button>
