@@ -1,0 +1,30 @@
+{
+  "name": "talent-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.7",
+    "@radix-ui/colors": "^0.1.8",
+    "@radix-ui/react-dialog": "^1.0.0",
+    "@radix-ui/react-icons": "^1.1.1",
+    "@stitches/react": "^1.2.8",
+    "axios": "^0.27.2",
+    "next": "12.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.0",
+    "sha1": "^1.1.1",
+    "sha3": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4"
+  }
+}
