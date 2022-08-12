@@ -164,13 +164,6 @@ export default function SignUp() {
 
 
   const onSubmit = async (values) => {
-    console.log({
-
-      ...values,
-      type,
-      password: sha1(values.password)
-    })
-
 
     
     
